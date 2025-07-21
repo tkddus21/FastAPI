@@ -44,7 +44,7 @@
         <li>{answer.content}</li>
     {/each}
 </ul>
-<Error error={error} />
+<Error error={error}/>
 <form method="post">
     <textarea rows="15" bind:value={content}></textarea>
     <input type="submit" value="답변등록"on:click="{post_answer}">
