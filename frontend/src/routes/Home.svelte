@@ -10,6 +10,11 @@
 </script>
 
 <div class="container my-3">
+    <!-- 버튼 -->
+    <div class="mb-3">
+        <a href="#/record" class="btn btn-primary">🎙️ 음성 녹음하러 가기</a>
+    </div>
+    
     <table class="table">
         <thead>
         <tr class="table-dark">
